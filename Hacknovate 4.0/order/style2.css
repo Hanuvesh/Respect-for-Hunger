@@ -1,0 +1,89 @@
+
+
+.order
+{
+    width:100%;
+    height: 100%;
+    background-image:url('download.jpg') ;
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+.order-context
+{
+width:300px;
+height:400px;
+background-color:rgb(216, 213, 213);
+border-radius: 5px;
+text-align: center;
+padding: 20px;
+position: relative;
+cursor: pointer;
+}
+#category
+{   font-size: 15px;
+    text-align: center;
+    color:white;
+    background-color:rgb(243, 75, 13);
+    
+    margin: 10px;
+}
+
+#order-selection
+{   font-size: 15px;
+    text-align: center;
+    color:white;
+    background-color:rgb(243, 75, 13);
+    
+    margin: 10px;
+}
+#quantity-of-food
+{   font-size: 15px;
+    text-align: center;
+    color:white;
+    background-color:rgb(243, 75, 13);
+    margin: 10px;
+}
+.for
+{
+    font-size: 30px;
+    margin: 5px;
+}
+.button
+{
+    font-size: 20px;
+    color: blue;
+    
+}
+.close
+{
+    position:absolute;
+    top:0;
+    right: 10px;
+    font-size: 42px;
+    transform: rotate(45deg);
+}
+ a {
+    margin: 30px;
+    padding: 10px 10px;
+    border-radius: 90px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+
+.sb {
+    background: orangered;
+    color: white;
+  }
+  
+  .sb:hover {
+    color: black;
+  }
